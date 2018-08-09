@@ -1,0 +1,15 @@
+{
+  "name": "gatrix",
+  "version": "0.1.1",
+  "description": "Gatrix NPM package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gatrix",
+  "license": "UNLICENSED",
+  "preferGlobal": true,
+  "bin": {
+    "gatrix": "./gatrix-cli"
+  }
+}

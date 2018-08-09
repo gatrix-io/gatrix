@@ -1,1 +1,1 @@
-# gatrix
+# Gatrix NPM Package
