@@ -1,6 +1,6 @@
 {
   "name": "gatrix",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Gatrix NPM package.",
   "main": "index.js",
   "scripts": {
