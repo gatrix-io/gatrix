@@ -10,6 +10,7 @@
   "license": "UNLICENSED",
   "preferGlobal": true,
   "bin": {
+    "gat": "./gatrix-cli",
     "gatrix": "./gatrix-cli"
   }
 }
