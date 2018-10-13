@@ -1,6 +1,6 @@
 {
   "name": "gatrix",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Gatrix NPM package.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "license": "UNLICENSED",
   "preferGlobal": true,
   "bin": {
-    "gat": "./gatrix-cli",
     "gatrix": "./gatrix-cli"
   }
 }
