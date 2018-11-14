@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "_install": "echo \"### Run Gatrix _install command. ###\" && gatrix install",
-    "prepare": "echo \"### Run Gatrix prepare command. ###\" && npm run _local_install -- node_modules/gatrix",
-    "_local_install": "echo \"### Run Gatrix _local_install command. ###\" && npx gatrix install",
+    "_global_install": "echo \"### Run Gatrix _global_install command. ###\" && gatrix install",
+    "postinstall": "echo \"### Run Gatrix postinstall command. ###\" && npm run _install -- node_modules/gatrix",
+    "prepare": "echo \"### Run Gatrix prepare command. ###\" && npm run _install -- node_modules/gatrix",
+    "_install": "echo \"### Run Gatrix _install command. ###\" && npx gatrix install",
     "devinstall": "echo \"### Run Gatrix devinstall command. ###\" && npm run _install -- node_modules/gatrix"
   },
   "author": "Gatrix",
