@@ -1,6 +1,6 @@
 {
   "name": "gatrix",
-  "version": "0.4.15",
+  "version": "0.4.16",
   "description": "Gatrix CLI",
   "main": "index.js",
   "scripts": {
