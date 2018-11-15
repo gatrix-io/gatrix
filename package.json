@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "_install": "echo \"### Run Gatrix _install command. ###\" && npx gatrix install",
     "postinstall": "echo \"### Run Gatrix postinstall command. ###\" && npm run _install -- node_modules/gatrix",
+    "_uninstall": "echo \"### Run Gatrix _uninstall command. ###\" && npx gatrix uninstall",
+    "preuninstall": "echo \"### Run Gatrix preuninstall command. ###\" && npm run _uninstall -- node_modules/gatrix",
     "devinstall": "echo \"### Run Gatrix devinstall command. ###\" && npm run _install -- node_modules/gatrix",
     "_global_install": "echo \"### Run Gatrix _global_install command. ###\" && gatrix install"
   },
