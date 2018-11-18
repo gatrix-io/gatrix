@@ -39,7 +39,6 @@ Print the list of available commands:
 $ gatrix
   Commands:
     version                                 Print Gatrix version.
-    init                                    Initializes Gatrix for current repository
     install                                 Install Gatrix
     uninstall                               Uninstall Gatrix
     ...                                     ...
