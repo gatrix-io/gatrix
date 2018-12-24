@@ -18,5 +18,7 @@
   "bin": {
     "gatrix": "./gatrix"
   },
-  "dependencies": {}
+  "dependencies": {
+    "eslint": "^5.11.0"
+  }
 }
